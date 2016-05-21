@@ -1,0 +1,1144 @@
+@media screen and (min-width: 400px){
+  body{
+/* If screen is iphone size*/
+/* General*/
+    background-color: #fff;
+ padding-right: 30px;
+ padding-left: 30px;
+ padding-bottom: 10px;
+ font-family: Arial, Helvetica, sans-serif;
+ color: #333;
+ clear: both; 
+ font-size: 35px;
+ font-weight: 100;
+  } 
+  
+h1, h2, h3, h4, h5, h6, p, hr, br{
+ clear: left; 
+}
+
+hr{
+ border-bottom-style:solid;
+ border-width: 1px; 
+}
+
+.hr-thick-hover hr:hover{
+ border-bottom-style:solid;
+ border-width: 2px; 
+}
+
+.quote{
+    font-style:italic;
+  clear: both;
+}
+
+
+a {
+ text-decoration:none; 
+ color:#333;
+ clear: both;
+}
+
+a:hover {
+  color: #000000;
+  clear: both;
+}
+
+/*Images*/
+ img{
+  border-radius: 8px;
+  clear: both;
+  max-width: 100%;
+}
+  
+.blur:hover {-webkit-filter: blur(4px);
+  filter: blur(4px);
+} 
+  
+/*Title*/
+.title{
+ background-color:#333;
+ color:white;
+ padding:40px;
+ border-radius: 8px;
+ font-size:30px;
+ padding-left: 60px;
+ clear: both;
+ text-align: center;
+ 
+}
+  
+.title button {
+  font-size: 35px;
+    margin: 4px 2px;
+    height: 75px;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    text-align: center;
+    padding-bottom: 35px;
+    margin: auto;
+    font-weight: 100;
+    clear: both; 
+} 
+  
+.title button a {
+  color: white;
+  clear: both; 
+}
+
+.title button:hover {
+  background-color: white;
+  clear: both;
+}    
+/*Image title*/
+div.image-title {
+  width: 80%;
+  background-color:  #333;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  color: #fff;
+  border-radius: 8px 8px 8px 8px; 
+  text-align: center;
+   margin: auto;
+  clear: both;
+}
+.image-title img{
+ border-radius: 8px 8px 0 0; 
+ 
+  clear: both;
+}
+
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+  clear: both; 
+}
+/* App and statment   */
+  
+.app {
+   font-family: 'Raleway Dots', sans-serif;
+    width: 200px;
+    height: 100px;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    text-align: center;
+    padding-bottom: 50px;
+    margin: auto;
+    font-weight: 100;
+  clear: both;
+} 
+  
+.app-hover {
+    font-family: 'Raleway Dots', sans-serif;
+    width: 200px;
+    height: 100px;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    text-align: center;
+    padding-bottom: 50px;
+    margin: auto;
+    font-weight: 100;
+  clear: both;
+}
+
+.app-hover:hover {
+    font-family: 'Raleway Dots', sans-serif;
+    width: 200px;
+    height: 100px;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    text-align: center;
+    padding-bottom: 50px;
+    margin: auto;
+    font-weight: 100;
+    
+  clear: both;
+}
+  
+.statment{
+  border-color:#333;
+  color: #333;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 8px;
+    text-align:center;
+    font-family: 'Raleway Dots', sans-serif;
+}
+
+.statment-button {
+    border-style: solid;
+    color:#333;
+    border-color:#333;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 8px;
+    text-align:center;
+    font-family: 'Raleway Dots', sans-serif;
+}
+
+.statment-button:hover{
+    background-color:#333;
+    color: #fff;
+    border-color:#333;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 8px;
+    text-align:center;
+    font-family: 'Raleway Dots', sans-serif;
+}
+ 
+button{
+    background-color: #333; 
+    border: none;
+    color: white;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+  clear: both;
+} 
+
+/*  Nav bars*/
+  .nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    border-radius: 8px;
+  
+    
+}
+
+.nav li {
+    float: left;
+  
+  
+}
+
+.nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+  
+}
+
+.nav li a:hover {
+    background-color: #111;
+  
+}
+
+.selected{
+    background-color: #4CAF50;
+    color: #fff;
+  
+}
+  
+/* Stripped nav bar */
+  .strip-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #333;
+    border-radius:8px;
+  
+    
+}
+
+.strip-nav li {
+    float: left;
+  
+  
+}
+
+.strip-nav li a {
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  
+}
+
+.strip-nav li a:hover {
+    background-color: rgb(230, 230, 230);
+  
+}
+
+  /*vertical nav bars*/
+.nav-v ul {
+    list-style-type: none;
+    color:#fff;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #333;
+    float: left;
+    border-radius: 8px;
+    
+}
+
+.nav-v li a {
+    
+    display: block;
+    color:#fff;
+    color: #fff;
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+}
+
+.nav-v li a.selected {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 8px;
+   
+}
+
+.nav-v li a:hover:not(.selected) {
+    background-color: #111;
+    color: white;
+    border-radius: 8px;
+    
+}
+  
+form{
+ background-color: #333;
+ color: #fff;
+ border-radius: 8px;
+ padding-left: 10px;
+ padding-left: 10px;
+ clear:right;
+}
+
+
+.input input[type=text] {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border: 1px solid #333;
+    border-radius: 8px;
+    background-color: #fff;
+    clear:right;
+}
+
+.input input[type=text]:focus{
+  background-color: #4CAF50;
+  clear:right;
+  
+}
+
+.expand input[type=text]{
+    width: 130px;
+    box-sizing: border-box;
+    border: 1px solid #333;
+    border-radius: 8px;
+    height: 40px;
+    font-size: 16px;
+    background-color: white;
+    padding: 12px 20px 12px 12px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+.expand input[type=text]:focus{
+  width: 60%;
+  background-color: #4CAF50;
+}
+
+}
+
+
+@media screen and (min-width: 1300px){
+  body{
+/* If screen is iphone size*/
+/* General*/
+    background-color: #fff;
+ padding-right: 30px;
+ padding-left: 30px;
+ padding-bottom: 10px;
+ font-family: Arial, Helvetica, sans-serif;
+ color: #333;
+ clear: both; 
+ font-size: 35px;
+ font-weight: 100;
+  } 
+  
+h1, h2, h3, h4, h5, h6, p, hr, br{
+ clear: left; 
+}
+
+hr{
+ border-bottom-style:solid;
+ border-width: 1px; 
+}
+
+.hr-thick-hover hr:hover{
+ border-bottom-style:solid;
+ border-width: 2px; 
+}
+
+.quote{
+    font-style:italic;
+  clear: both;
+}
+
+  
+.float-2{
+   align-content:center;
+    float: left;
+    width: 48.3%;
+/*    height: 5%;*/
+    margin: 10px;
+    border-bottom: 3px solid #333;  
+  }
+
+a {
+ text-decoration:none; 
+ color:#333;
+ clear: both;
+}
+
+a:hover {
+  color: #000000;
+  clear: both;
+}
+
+/*Images*/
+ img{
+  border-radius: 8px;
+  clear: both;
+  max-width: 100%;
+}
+  
+.blur:hover {-webkit-filter: blur(4px);
+  filter: blur(4px);
+} 
+  
+/*Title*/
+.title{
+ background-color:#333;
+ color:white;
+ padding:40px;
+ border-radius: 8px;
+ font-size:30px;
+ padding-left: 60px;
+ clear: both;
+ text-align: center;
+ 
+}
+  
+.title button {
+  font-size: 35px;
+    margin: 4px 2px;
+    height: 75px;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    text-align: center;
+    padding-bottom: 35px;
+    margin: auto;
+    font-weight: 100;
+    clear: both; 
+} 
+  
+.title button a {
+  color: white;
+  clear: both; 
+}
+
+.title button:hover {
+  background-color: white;
+  clear: both;
+}    
+/*Image title*/
+div.image-title {
+  width: 80%;
+  background-color:  #333;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  color: #fff;
+  border-radius: 8px 8px 8px 8px; 
+  text-align: center;
+   margin: auto;
+  clear: both;
+}
+.image-title img{
+ border-radius: 8px 8px 0 0; 
+ 
+  clear: both;
+}
+
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+  clear: both; 
+}
+/* App and statment   */
+  
+.app {
+   font-family: 'Raleway Dots', sans-serif;
+    width: 200px;
+    height: 100px;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    text-align: center;
+    padding-bottom: 50px;
+    margin: auto;
+    font-weight: 100;
+  clear: both;
+} 
+  
+.app-hover {
+    font-family: 'Raleway Dots', sans-serif;
+    width: 200px;
+    height: 100px;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    text-align: center;
+    padding-bottom: 50px;
+    margin: auto;
+    font-weight: 100;
+  clear: both;
+}
+
+.app-hover:hover {
+    font-family: 'Raleway Dots', sans-serif;
+    width: 200px;
+    height: 100px;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    text-align: center;
+    padding-bottom: 50px;
+    margin: auto;
+    font-weight: 100;
+    
+  clear: both;
+}
+  
+.statment{
+  border-color:#333;
+  color: #333;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 8px;
+    text-align:center;
+    font-family: 'Raleway Dots', sans-serif;
+}
+
+.statment-button {
+    border-style: solid;
+    color:#333;
+    border-color:#333;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 8px;
+    text-align:center;
+    font-family: 'Raleway Dots', sans-serif;
+}
+
+.statment-button:hover{
+    background-color:#333;
+    color: #fff;
+    border-color:#333;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 8px;
+    text-align:center;
+    font-family: 'Raleway Dots', sans-serif;
+}
+ 
+button{
+    background-color: #333; 
+    border: none;
+    color: white;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+  clear: both;
+} 
+
+/*  Nav bars*/
+  .nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    border-radius: 8px;
+  
+    
+}
+
+.nav li {
+    float: left;
+  
+  
+}
+
+.nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+  
+}
+
+.nav li a:hover {
+    background-color: #111;
+  
+}
+
+.selected{
+    background-color: #4CAF50;
+    color: #fff;
+  
+}
+  
+/* Stripped nav bar */
+  .strip-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #333;
+    border-radius:8px;
+  
+    
+}
+
+.strip-nav li {
+    float: left;
+  
+  
+}
+
+.strip-nav li a {
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  
+}
+
+.strip-nav li a:hover {
+    background-color: rgb(230, 230, 230);
+  
+}
+
+  /*vertical nav bars*/
+.nav-v ul {
+    list-style-type: none;
+    color:#fff;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #333;
+    float: left;
+    border-radius: 8px;
+    
+}
+
+.nav-v li a {
+    
+    display: block;
+    color:#fff;
+    color: #fff;
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+}
+
+.nav-v li a.selected {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 8px;
+   
+}
+
+.nav-v li a:hover:not(.selected) {
+    background-color: #111;
+    color: white;
+    border-radius: 8px;
+    
+}
+  
+form{
+ background-color: #333;
+ color: #fff;
+ border-radius: 8px;
+ padding-left: 10px;
+ padding-left: 10px;
+ clear:right;
+}
+
+
+.input input[type=text] {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border: 1px solid #333;
+    border-radius: 8px;
+    background-color: #fff;
+    clear:right;
+}
+
+.input input[type=text]:focus{
+  background-color: #4CAF50;
+  clear:right;
+  
+}
+
+.expand input[type=text]{
+    width: 130px;
+    box-sizing: border-box;
+    border: 1px solid #333;
+    border-radius: 8px;
+    height: 40px;
+    font-size: 16px;
+    background-color: white;
+    padding: 12px 20px 12px 12px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+.expand input[type=text]:focus{
+  width: 60%;
+  background-color: #4CAF50;
+}
+
+}
+
+
+@media screen and (min-width: 1420px){
+body{
+ font-size: 20px;
+ background-color: #fff;
+ padding-right: 30px;
+ padding-left: 30px;
+ padding-bottom: 10px;
+ font-family: Arial, Helvetica, sans-serif;
+ color: #333;
+ clear: both;   
+}
+
+h1, h2, h3, h4, h5, h6, p, hr, br{
+ clear: left; 
+}
+
+hr{
+ border-bottom-style:solid;
+ border-width: 1px; 
+}
+
+.hr-thick-hover hr:hover{
+ border-bottom-style:solid;
+ border-width: 2px; 
+}
+
+
+a {
+ text-decoration:none; 
+ color:#333;
+ clear: both;
+}
+
+a:hover {
+  color: #000000;
+  clear: both;
+}
+
+.title{
+ background-color:#333;
+ color:white;
+ padding:40px;
+ border-radius: 8px;
+ font-size:30px;
+ padding-left: 60px;
+  clear: both;
+}
+
+button{
+    background-color: #333; 
+    border: none;
+    color: white;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+  clear: both;
+} 
+
+img{
+  border-radius: 8px;
+  clear: both;
+}
+
+.quote{
+    font-style:italic;
+  clear: both;
+}
+
+.float-4 {
+    align-content:center;
+    float: left;
+    width: 23.3%;
+/*    height: 75px;*/
+    margin: 10px;
+    border-bottom: 3px solid #333; 
+}
+
+.float-3 {
+    align-content:center;
+    float: left;
+    width: 31.7%;
+/*    height: 5%;*/
+    margin: 10px;
+    border-bottom: 3px solid #333; 
+}
+
+  
+
+.float-2 {
+    align-content:center;
+    float: left;
+    width: 48.4%;
+/*    height: 5%;*/
+    margin: 10px;
+    border-bottom: 3px solid #333; 
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    border-radius: 8px;
+  
+    
+}
+
+.nav li {
+    float: left;
+  
+  
+}
+
+.nav li a {
+        font-size: 20px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  
+}
+
+.nav li a:hover {
+    background-color: #111;
+  
+}
+
+.selected{
+    background-color: #4CAF50;
+    color: #fff;
+  
+}
+
+/*Strip nav bars*/
+
+.strip-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #333;
+    border-radius:8px;
+  
+    
+}
+
+.strip-nav li {
+    float: left;
+  
+  
+}
+
+.strip-nav li a {
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  
+}
+
+.strip-nav li a:hover {
+    background-color: rgb(230, 230, 230);
+  
+}
+
+
+
+
+/*vertical nav bars*/
+.nav-v ul {
+    list-style-type: none;
+    color:#fff;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #333;
+    float: left;
+    border-radius: 8px;
+    
+}
+
+.nav-v li a {
+    
+    display: block;
+    color:#fff;
+    color: #fff;
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+}
+
+.nav-v li a.selected {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 8px;
+   
+}
+
+.nav-v li a:hover:not(.selected) {
+    background-color: #111;
+    color: white;
+    border-radius: 8px;
+    
+}
+/**/
+
+
+
+
+.app {
+    font-family: 'Raleway Dots', sans-serif;
+    width: 200px;
+    height: 100px;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    text-align: center;
+    padding-bottom: 50px;
+    margin: auto;
+    font-weight: 100;
+  clear: both;
+}
+
+
+div.image-title {
+  width: 80%;
+  background-color:  #333;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  color: #fff;
+  border-radius: 8px 8px 8px 8px; 
+  text-align: center;
+   margin: auto;
+  clear: both;
+}
+.image-title img{
+ border-radius: 8px 8px 0 0; 
+ 
+  clear: both;
+}
+
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+  clear: both; 
+}
+
+.title button {
+  font-size: 16px;
+    margin: 4px 2px;
+    height: 10px;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    text-align: center;
+    padding-bottom: 35px;
+    margin: auto;
+    font-weight: 100;
+  clear: both; 
+}
+
+.title button a {
+  color: white;
+  clear: both; 
+}
+
+.title button:hover {
+  background-color: white;
+  clear: both;
+}
+
+.rest-of-content{
+ padding-left: 50px;
+ padding-right: 50px;
+  clear: both;
+}
+
+.blur:hover {-webkit-filter: blur(4px);
+  filter: blur(4px);
+}
+
+.app-hover {
+    font-family: 'Raleway Dots', sans-serif;
+    width: 200px;
+    height: 100px;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    text-align: center;
+    padding-bottom: 50px;
+    margin: auto;
+    font-weight: 100;
+  clear: both;
+}
+
+.app-hover:hover {
+    font-family: 'Raleway Dots', sans-serif;
+    width: 200px;
+    height: 100px;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    text-align: center;
+    padding-bottom: 50px;
+    margin: auto;
+    font-weight: 100;
+    
+  clear: both;
+}
+
+.statment{
+  border-color:#333;
+  color: #333;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 8px;
+    text-align:center;
+    font-family: 'Raleway Dots', sans-serif;
+}
+
+.statment-button {
+    border-style: solid;
+    color:#333;
+    border-color:#333;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 8px;
+    text-align:center;
+    font-family: 'Raleway Dots', sans-serif;
+}
+
+
+
+.statment-button:hover{
+    background-color:#333;
+    color: #fff;
+    border-color:#333;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 8px;
+    text-align:center;
+    font-family: 'Raleway Dots', sans-serif;
+}
+
+form{
+ background-color: #333;
+ color: #fff;
+ border-radius: 8px;
+ padding-left: 10px;
+ padding-left: 10px
+}
+
+.input input[type=text] {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border: 1px solid #333;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.input input[type=text]:focus{
+  background-color: #4CAF50;
+  
+}
+
+.expand input[type=text]{
+    width: 130px;
+    box-sizing: border-box;
+    border: 1px solid #333;
+    border-radius: 8px;
+    height: 40px;
+    font-size: 16px;
+    background-color: white;
+    padding: 12px 20px 12px 12px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+.expand input[type=text]:focus{
+  width: 60%;
+  background-color: #4CAF50;
+}
+
+/*Inserting tabel code*/
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    overflow-x:auto;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+    background-color: #333;
+    color: white;
+}
+/*Break*/
